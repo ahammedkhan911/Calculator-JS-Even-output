@@ -1,0 +1,160 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 200vh; /* Ensures scrolling for both pages */
+}
+
+/* Page container styling */
+.page {
+    padding: 20px;
+    background-color: white;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* Styling for the form */
+#form-page {
+    padding: 40px;
+    background-color: #f4f4f4;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Styling for form labels */
+label {
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+/* Styling for input fields */
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    margin-bottom: 10px;
+    max-width: 250px;
+}
+
+/* Styling for the submit button */
+input[type="submit"] {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    max-width: 250px;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* Scroll link styling */
+.scroll-link {
+    margin-top: 20px;
+    text-decoration: none;
+    color: #007bff;
+}
+
+.scroll-link:hover {
+    text-decoration: underline;
+}
+
+/* Calculator container styling */
+#calculator-page {
+    padding: 40px;
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Display input field styling */
+#display {
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    text-align: right;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+    margin-bottom: 10px;
+    max-width: 250px;
+}
+
+/* Button styling for all buttons */
+input[type="button"] {
+    padding: 15px;
+    font-size: 18px;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    background-color: #ffffff;
+    cursor: pointer;
+    width: 60px;
+    margin: 5px;
+    box-sizing: border-box;
+}
+
+/* Button hover effect */
+input[type="button"]:hover {
+    background-color: #e0e0e0;
+}
+
+/* Button styling for special buttons like AC, DE, = */
+input[value="AC"],
+input[value="DE"],
+input[value="="] {
+    background-color: #ff8c00;
+    color: white;
+}
+
+input[value="AC"]:hover,
+input[value="DE"]:hover,
+input[value="="]:hover {
+    background-color: #ff6600;
+}
+
+/* Styling for number buttons */
+input[value="0"],
+input[value="1"],
+input[value="2"],
+input[value="3"],
+input[value="4"],
+input[value="5"],
+input[value="6"],
+input[value="7"],
+input[value="8"],
+input[value="9"],
+input[value="00"] {
+    background-color: #ffffff;
+}
+
+/* Operator button styling */
+input[value="/"],
+input[value="*"],
+input[value="-"],
+input[value="+"] {
+    background-color: #4caf50;
+    color: white;
+}
+
+input[value="/"]:hover,
+input[value="*"]:hover,
+input[value="-"]:hover,
+input[value="+"]:hover {
+    background-color: #45a049;
+}
